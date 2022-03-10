@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<html lang="en">
+
+<head>
+<title>CSS Template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-image: url('https://www.desktopbackground.org/download/o/2010/06/17/34466_top-gym-background-images-for-pinterest_1920x1080_h.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 3500px; /* only for demonstration, should be removed */
+  background-color: #fff5ee ;
+  padding: 40px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 60px;
+  width: 85%;
+  background-color: #bdb76b;
+  height: 3500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1 style="color:indianred; text-align:center; font-size: 70px">Fitness First</h1>
+
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a <a style="color:darkorange"; class="active" href="index.html">Home</a></li>
+      <br>
+      <li><a <a style="color:darkorange"; href="page2.html">Price</a></li>
+      <br>
+      <li><a <a style="color:darkorange"; href="page3.html">Class Types and Promotions</a></li>
+      <br>
+      <li><a <a style="color:darkorange"; href="page4.html">Location and Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+
+<h2><p style="font-size: 40px; color:white;text-align:center;text-decoration:underline">Classes</p></h2>
+<h3><p style="font-size: 30px; color:lightblue;text-align:center">Yoga</p></h3>
+
+<style>
+
+* {
+  box-sizing: border-box;
+  }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+
+<div class="row">
+  <div class="column">
+  <img src="https://i.pinimg.com/736x/fa/53/ed/fa53ed7cb82cbfcaaf37538a47ff8b96.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://img.freepik.com/free-photo/group-young-sporty-people-doing-matsyendrasana-pose-during-yoga-class-spacious-bright-studio_126745-2323.jpg?size=626&ext=jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://yogapractice.com/wp-content/uploads/2018/08/15-Yoga-Classes-with-Meditations.jpg" style="width:100%">
+  </div>
+  </div>
+   
+    <p>Over 400 classes weekly across 3 conveinetly located studios. A variety of hybrind class packs for use in studio and online.</p>
+    <p>Bookings up to 7 days in advance, with schedules released 15 days prior to allow you to make plans ahead of time!</p>
+    <p style="text-align:center"</p><a href="https://www.yogamovement.com/schedule?date=20220308">Book a mat!</a></p>
+
+
+&nbsp
+
+<style>
+      .container {
+        display: flex;
+        align-items: top;
+        justify-content:center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 80%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 30px;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+      <img src="https://i.pinimg.com/originals/6e/de/2a/6ede2a46522245dcfb75b36b683233a1.jpg" width="600" height="300">
+      <img src="https://i.pinimg.com/550x/89/00/c4/8900c449dc06d15ace50e822813a3353.jpg" width="600" height="300">
+      </div>
+      <div class="text">
+      <p style="font-size: 18px; color:antiquewhite;text-align:center;font-weight:bold">Class Types</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Basics - Foundation & Alinment </p> 
+      <p style="font-size:13px;text-align:left"> The perfect class to kickstart or re-invigorate your yoga journey. Basics focuses on foundational yoga postures and safe alignment to build good habits for your practice. Taught at a slower pace to allow time to break down the postures, Basics is a wonderful place to start!</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Core - Strength in the muscles around the spine, Stamina </p> 
+      <p style="font-size:13px;text-align:left"> Our Core classes up the ante, providing a great workout for the front, sides and back of your torso. A strong core helps to support your spine, provides good posture and makes every other yoga posture you hold much lighter and accessible.</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Power - Strength, Flexibility & Posture </p> 
+      <p style="font-size:13px;text-align:left">  This is your go-to class if you’d like more time to work on a specific posture. Each class is carefully planned and curated to prepare your body for a peak pose, which is a more challenging posture. </p>
+      <p style="font-size:13px;text-align:left"> &#127774; Zen - Breath work & Relaxation </p> 
+      <p style="font-size:13px;text-align:left">  As its name implies, this class is an opportunity take a step back and slow down. Enjoy longer and deeper stretches with a focus on breathing and flexibility. Use props such as blocks and straps to help improve mobility safely and release tension that have been built up from more intense physical activities and our day-to-day. </p>
+      <p style="font-size:13px;text-align:left"> &#127774; HIIT Yoga - Cardiovascular endurance & Strength </p> 
+      <p style="font-size:13px;text-align:left">  HIIT stands for High Intensity Interval Training, and our HIIT Yoga class incorporates 20 minutes of yoga flow to warm the body up, 20 minutes of fully body HIIT workout that gets your heart rate up and adrenaline pumping, and 20 minutes of a stretch for maximum recovery.</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Hot Power - Strength & Flexibility </p> 
+      <p style="font-size:13px;text-align:left"> Continue to level up your practice with these slow to medium paced classes that break down challenging postures in a room heated to 34-36 degrees. The hot environment encourages greater flexibility, contributing to your body being able to reach deeper levels of intensity in more powerful poses.</p>
+    
+
+</div>
+</div>
+
+<hr>
+<br>
+
+<h3><p style="font-size: 30px; color:lightblue;text-align:center">Fitness</p></h3>
+
+<style>
+
+* {
+  box-sizing: border-box;
+  }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+
+<div class="row">
+  <div class="column">
+  <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2017_36/2144546/170905-working-out-group-ac-512p.jpg" width="300" height="200">
+  </div>
+  <div class="column">
+    <img src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/News/4773-execise_class-1296x728-header.jpg?w=1155&h=1528" width="300" height="200">
+  </div>
+  <div class="column">
+    <img src="https://www.muscleandfitness.com/wp-content/uploads/2018/11/Group-Fitness-Class-Performing-A-Variety-Of-Exercises-1.jpg?quality=86&strip=all" width="300" height="200">
+  </div>
+  </div>
+   
+    <p>Taught by a community of over 20 fitness instructors, we offer over 100 classes each week. </p>
+    <p>Group Exercise exhilaration, innovative programmes and ProTraining to fulfil your fitness aspirations. Whether you want to tone your body, build muscle, relieve tension, pump up your cardio or get energised. We will take you there!</p>
+    <p>Bookings up to 7 days in advance, with schedules released 15 days prior to allow you to make plans ahead of time!</p>
+    <p style="text-align:center"</p><a href="https://www.fitnessfirst.com.sg/join-online?_ga=2.39455392.246594250.1646724198-501157314.1646410076#/step0">Book a class!</a></p>
+
+&nbsp
+
+<style>
+      .container {
+        display: flex;
+        align-items: top;
+        justify-content:center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 80%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 30px;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+      <img src="https://c0.wallpaperflare.com/preview/318/1/309/bodybuilding-gym-fitness-diet-thumbnail.jpg" width="600" height="300">
+      <img src="https://i.pinimg.com/originals/19/0c/8a/190c8aa81b77b0eebbb25dbb52b85c5f.jpg" width="300" height="400">
+      </div>
+      <div class="text">
+      <p style="font-size: 18px; color:antiquewhite;text-align:center;font-weight:bold">Class Types</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Bodyattack </p> 
+      <p style="font-size:13px;text-align:left"> Welcome to a high-energy, whole body workout that caters to everyone, from total beginners to total addicts. You’ll push yourself to the limits from combining athletic moves such as running, lunging and jumping, with strength exercises such as push-ups and squats.</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Bodycombat </p> 
+      <p style="font-size:13px;text-align:left"> Punch and kick your way to fitness in this high-energy martial-arts inspired workout. The class is completely non-contact, with easy-to-follow moves inspired by a wide array of mixed martial arts, such as karate, boxing, taekwondo, tai chi and MuayThai. With each round, you’ll be motivated to up the intensity to make the most out of your workout.</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Burn </p> 
+      <p style="font-size:13px;text-align:left"> Calories stand no chance at BURN, our fiery workout that’s here to keep you sweating and burning. For that extra challenge, we’ll make use of specialist equipment. Get comfy with the Airbike, the rowing machine and the SkiErg, you’ll be spending some sweaty time together. One class will fire up your metabolism for that all-day burn.</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Core Conditioning </p> 
+      <p style="font-size:13px;text-align:left"> Focusing purely on strengthening your core – primarily abs, butts and thighs – this total body class combines strength enhancing and muscle toning exercises for non-stop hard work. Challenge yourself to tone and sculpt every muscle in your body as you sweat it out.</p>
+      <p style="font-size:13px;text-align:left"> &#127774; Bodyjam </p> 
+      <p style="font-size:13px;text-align:left"> Welcome to the ultimate combination of dance and music. It’s all about moving through an addictive fusion of the latest dance moves choreographed to the hottest new music. And it doesn’t matter if you’re a dance master or if you have two left feet, there’s something in this class for you.</p>
+
+</div>
+</div>
+
+<hr>
+<br>
+
+
+<h2><p style="font-size: 40px; color:white;text-align:center;text-decoration:underline">Promotions</p></h2>
+<h3><p style="font-size: 20px; color:lightblue;text-align:center">Month of March</p></h3>
+
+
+<style>
+      .container {
+        display: flex;
+        align-items: top;
+        justify-content:center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 80%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 30px;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+      <img src="https://media.karousell.com/media/photos/products/2019/07/23/fitness_first_promo_package_1563874774_43cda62f.jpg" width="350" height="400">
+      </div>
+      <div class="text">
+      <p style="font-size: 18px; color:antiquewhite;text-align:center;font-weight:bold">Kickstart your Fitness Journey </p>
+      <p style="font-size:13px;text-align:left"> Want to lose the extra pounds?</p>
+      <p style="font-size:13px;text-align:left"> Want to stay fit? </p> 
+      <p style="font-size:13px;text-align:left"> Fred not! Fitness First got you covered. Kick start your journey at Fitness Freaks. Sign up and get 30 days free with purchase of any fitness service product.</p>
+      <p style="font-size:13px;text-align:left"> &#9203; Promotion valid till 31st March 2022 </p> 
+      <p style="font-size:13px;text-align:left"> &#128203; Terms and Conditons: </p>
+      <p style="font-size:13px;text-align:left"> &#128203; For first time Fitness First members only</p>
+      <p style="font-size:13px;text-align:left"> &#128203; Not applicable for student and elderly packages </p>
+      <p style="font-size:13px;text-align:left"> &#128203; Sharing of package is not allowed  </p>
+      <p style="font-size:13px;text-align:left"> &#128203; Refunds not allowed once payment is recieved</p>
+      <p style="font-size:13px;text-align:left"> &#128203; Only for adults above the age of 21 years old </p>
+      
+
+</div>
+</div>
+
+&nbsp 
+
+
+<style>
+      .container {
+        display: flex;
+        align-items: top;
+        justify-content:center
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 80%
+      }
+      .text {
+        font-size: 15px;
+        padding-left: 30px;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+      <img src="https://psddaddy.com/wp-content/uploads/2019/12/yoga-new-scaled.jpg" width="350" height="400">
+      </div>
+      <div class="text">
+      <p style="font-size: 18px; color:antiquewhite;text-align:center;font-weight:bold">Yoga Starter Package </p>
+      <p style="font-size:13px;text-align:left"> Yoga's incorporation of meditation and breathing can improve a person's mental and well-being. </p>
+      <p style="font-size:13px;text-align:left"> Regular yoga practice creates mental clarity and calmness, increases body awareness, release chronic stress patterns, relaxes the mind, and sharpens concentration. </p>
+      <p style="font-size:13px;text-align:left"> Release your mind with Yoga Starter Package now! </p>
+      <p style="font-size:13px;text-align:left"> 10 sessions for only $128.00 (U.P $168.00) </p> 
+      <p style="font-size:13px;text-align:left"> &#9203; Promotion valid till 31st March 2022 </p> 
+      <p style="font-size:13px;text-align:left"> &#128203; Terms and Conditons: </p>
+      <p style="font-size:13px;text-align:left"> &#128203; For first time Fitness First members only</p>
+      <p style="font-size:13px;text-align:left"> &#128203; Sharing of package is not allowed  </p>
+      <p style="font-size:13px;text-align:left"> &#128203; Refunds not allowed once payment is recieved</p>
+     
+</div>
+</div>
+
+
+<br>
+<hr>
